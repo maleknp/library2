@@ -1,0 +1,181 @@
+h3 {
+    font-family: "Muli", sans-serif;
+    color: #001D38;
+}
+
+
+/* line 43, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/theme-default.scss */
+
+
+/* line 59, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/theme-default.scss */
+
+p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #4D4D4D;
+    margin-bottom: 13px;
+    font-family: "Muli", sans-serif;
+}
+
+
+/* line 110, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/theme-default.scss */
+
+h3 {
+    font-size: 24px;
+}
+
+
+/* line 29, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_btn.scss */
+
+.boxed-btn3 {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0181f5+0,5db2ff+100 */
+    background: rgb(230, 156, 20);
+    color: #fff;
+    display: inline-block;
+    padding: 14px 38px;
+    font-family: "Muli", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    border: 0;
+    border: 1px solid transparent;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    text-align: center;
+    color: #fff !important;
+    text-transform: capitalize;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+/* line 47, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_btn.scss */
+
+.boxed-btn3:hover {
+    border: 1px solid rgb(230, 156, 20);
+    color: rgb(230, 156, 20) !important;
+    background: transparent;
+}
+
+
+/* line 53, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_btn.scss */
+
+.boxed-btn3:focus {
+    outline: none;
+}
+
+
+/* line 56, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_btn.scss */
+
+.boxed-btn3.large-width {
+    width: 220px;
+}
+
+
+/* line 1, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_about.scss */
+
+.about_me {
+    padding-top: 75px;
+    padding-bottom: 150px;
+    position: relative;
+}
+
+@media (max-width: 767px) {
+    /* line 1, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_about.scss */
+    .about_me {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    /* line 1, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_about.scss */
+    .about_me {
+        padding-bottom: 100px;
+    }
+}
+
+
+/* line 12, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_about.scss */
+
+.about_me .about_large_title {
+    font-weight: 800;
+    color: #F5F6F7;
+    font-size: 235px;
+    position: absolute;
+    left: 21%;
+    top: 0;
+    line-height: 1;
+}
+
+@media (max-width: 767px) {
+    /* line 21, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_about.scss */
+    .about_me .about_e_details {
+        margin-bottom: 30px;
+    }
+    .about_large_title {
+        width: 100%;
+    }
+}
+
+
+/* line 25, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_about.scss */
+
+.about_me .about_e_details h3 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #001D38;
+}
+
+
+/* line 30, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_about.scss */
+
+.about_me .about_e_details p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #727272;
+    margin-top: 20px;
+    margin-bottom: 36px;
+}
+
+
+/* line 43, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_about.scss */
+
+.about_me .about_img {
+    position: relative;
+}
+
+
+/* line 45, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_about.scss */
+
+.about_me .about_img .color_pattern {
+    position: absolute;
+    right: -80px;
+    top: -123px;
+    z-index: -1;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    /* line 45, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_about.scss */
+    .about_me .about_img .color_pattern {
+        right: 0;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+    /* line 45, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_about.scss */
+    .about_me .about_img .color_pattern {
+        right: 0;
+    }
+}
+
+
+/* line 58, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_about.scss */
+
+.about_me .about_img .my_Pic img {
+    width: 100%;
+}
